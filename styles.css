@@ -1,7 +1,7 @@
 body {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 300;
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -9,12 +9,10 @@ body {
     background: #ff1b68
 }
 
-
 .section-title {
     color: #2ddf5c;
 }
 
-
-h1 {
+#product-overview h1 {
     color: white;
 }
