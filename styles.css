@@ -1,3 +1,10 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
 #product-overview {
     background: #ff1b68
 }
@@ -10,5 +17,4 @@
 
 h1 {
     color: white;
-    font-family: "Noto Sans", sans-serif;
 }
