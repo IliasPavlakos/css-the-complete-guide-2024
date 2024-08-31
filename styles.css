@@ -30,3 +30,7 @@ body {
     padding: 10px;
     background-color: greenyellow;
 }
+
+.main-nav__item {
+    display: inline-block;
+}
