@@ -33,12 +33,21 @@ body {
 
 .main-header > div {
     display: inline-block;
+    vertical-align: middle;
+}
+
+.main-header__brand {
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .main-nav {
     display: inline-block;
-    text-align: left;
-    width: calc(100% - 54px);
+    text-align: right;
+    width: calc(100% - 74px);
+    vertical-align: middle;
 }
 
 .main-nav__items{
