@@ -89,14 +89,20 @@ body {
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
 }
 
-.button:hover {
+.button:hover,
+.button:active{
     background: white;
     color: #0e4f1f;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.38);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
+
+.button:focus {
+    outline: none;
+}
+
 
 .main-header {
     width: 100%;
