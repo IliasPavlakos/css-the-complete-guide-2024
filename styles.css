@@ -50,7 +50,7 @@ body {
     vertical-align: middle;
 }
 
-.main-nav__items{
+.main-nav__items {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -66,10 +66,7 @@ body {
     text-decoration: none;
 }
 
-.main-nav__item a:hover {
-    color: white;
-}
-
+.main-nav__item a:hover,
 .main-nav__item a:active {
     color: white;
 }
