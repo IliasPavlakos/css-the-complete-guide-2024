@@ -31,6 +31,22 @@ body {
     background-color: greenyellow;
 }
 
+.main-header > div {
+    display: inline-block;
+}
+
+.main-nav {
+    display: inline-block;
+    text-align: left;
+    width: calc(100% - 49px);
+}
+
+.main-nav__items{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 .main-nav__item {
     display: inline-block;
 }
