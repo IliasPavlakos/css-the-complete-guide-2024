@@ -15,16 +15,16 @@ body {
   margin: 0;
   display: grid;
   grid-template-rows: 3.5rem auto fit-content(8rem);
-  /*padding-top: 3.5rem;*/
+  grid-template-areas: "header"
+                       "main"
+                       "footer";
+  /* padding-top: 3.5rem; */
   height: 100%;
-  grid-template-areas:
-          "header"
-          "main"
-          "footer";
 }
 
 main {
-  grid-row: main
+  /* grid-row: 2 / 3; */
+  grid-area: main;
 }
 
 .backdrop {
@@ -146,7 +146,8 @@ main {
   background: black;
   padding: 2rem;
   margin-top: 3rem;
-  grid-row: footer;
+  /* grid-row: 3 / 4; */
+  grid-area: footer;
 }
 
 .main-footer__links {
