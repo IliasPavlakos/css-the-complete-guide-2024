@@ -166,7 +166,6 @@
 
 .modal {
   position: fixed;
-  display: none;
   z-index: 200;
   top: 20%;
   left: 30%;
@@ -175,6 +174,9 @@
   padding: 1rem;
   border: 1px solid #ccc;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transform: translateY(-3rem);
+  transition: opacity 200ms ease-out 1s, transform 500ms ease-out;
 }
 
 .modal__title {
